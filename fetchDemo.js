@@ -36,9 +36,9 @@ const fetchDemo = () => {
       </View>
       <View style={{flexDirection: 'column', backgroundColor: 'pink'}}>
         <Text style={styles.textFont}> using axios</Text>
-        <Text style={styles.textFont}> List : {list.userId}</Text>
-        <Text style={styles.textFont}> List : {list.id}</Text>
-        <Text style={styles.textFont}> List : {list.title}</Text>
+        <Text style={styles.textFont}> UserID : {list.userId}</Text>
+        <Text style={styles.textFont}> ID : {list.id}</Text>
+        <Text style={styles.textFont}> TITLE : {list.title}</Text>
       </View>
     </>
   );
